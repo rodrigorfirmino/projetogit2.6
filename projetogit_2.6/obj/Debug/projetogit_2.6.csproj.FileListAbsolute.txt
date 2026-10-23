@@ -1,0 +1,12 @@
+C:\Users\127745\source\repos\projetogit_2.6\projetogit_2.6\bin\Debug\projetogit_2.6.exe.config
+C:\Users\127745\source\repos\projetogit_2.6\projetogit_2.6\bin\Debug\projetogit_2.6.exe
+C:\Users\127745\source\repos\projetogit_2.6\projetogit_2.6\bin\Debug\projetogit_2.6.pdb
+C:\Users\127745\source\repos\projetogit_2.6\projetogit_2.6\obj\Debug\projetogit_2.6.csproj.AssemblyReference.cache
+C:\Users\127745\source\repos\projetogit_2.6\projetogit_2.6\obj\Debug\projetogit_2._6.Froms1.resources
+C:\Users\127745\source\repos\projetogit_2.6\projetogit_2.6\obj\Debug\projetogit_2._6.Properties.Resources.resources
+C:\Users\127745\source\repos\projetogit_2.6\projetogit_2.6\obj\Debug\projetogit_2._6.Regsitar.resources
+C:\Users\127745\source\repos\projetogit_2.6\projetogit_2.6\obj\Debug\projetogit_2.6.csproj.GenerateResource.cache
+C:\Users\127745\source\repos\projetogit_2.6\projetogit_2.6\obj\Debug\projetogit_2.6.csproj.CoreCompileInputs.cache
+C:\Users\127745\source\repos\projetogit_2.6\projetogit_2.6\obj\Debug\projetogit_2.6.exe
+C:\Users\127745\source\repos\projetogit_2.6\projetogit_2.6\obj\Debug\projetogit_2.6.pdb
+C:\Users\127745\source\repos\projetogit_2.6\projetogit_2.6\obj\Debug\projetogit_2.6.exe.config

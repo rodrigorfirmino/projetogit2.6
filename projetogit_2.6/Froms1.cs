@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace projetogit_2._6
 {
-    public partial class Form1 : Form
+    public partial class Froms1 : Form
     {
-        public Form1()
+        public Froms1()
         {
             InitializeComponent();
         }
@@ -30,6 +30,13 @@ namespace projetogit_2._6
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button_registar_Click(object sender, EventArgs e)
+        {
+            Regsitar paginaPrincipal = new Regsitar();
+            paginaPrincipal.Show();  
+            this.Hide();
         }
     }
 }

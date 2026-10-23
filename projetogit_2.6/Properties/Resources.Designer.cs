@@ -63,6 +63,16 @@ namespace projetogit_2._6.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3da39_no_user_image_icon_27 {
+            get {
+                object obj = ResourceManager.GetObject("3da39-no-user-image-icon-27", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap e9f118089d3a570adac4e362aebb5873 {
             get {
                 object obj = ResourceManager.GetObject("e9f118089d3a570adac4e362aebb5873", resourceCulture);
