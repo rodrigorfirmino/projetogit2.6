@@ -38,10 +38,10 @@
             this.textBox_utilizador = new System.Windows.Forms.TextBox();
             this.textBox_passe = new System.Windows.Forms.TextBox();
             this.textBox_Nome = new System.Windows.Forms.TextBox();
-            this.textBox_Data = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button_esconder = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -163,17 +163,6 @@
             this.textBox_Nome.Size = new System.Drawing.Size(286, 38);
             this.textBox_Nome.TabIndex = 17;
             // 
-            // textBox_Data
-            // 
-            this.textBox_Data.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox_Data.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_Data.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_Data.Location = new System.Drawing.Point(177, 474);
-            this.textBox_Data.Multiline = true;
-            this.textBox_Data.Name = "textBox_Data";
-            this.textBox_Data.Size = new System.Drawing.Size(286, 38);
-            this.textBox_Data.TabIndex = 18;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -202,15 +191,25 @@
             this.openFileDialog1.FileName = "openFileDialog1";
             this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.CalendarMonthBackground = System.Drawing.SystemColors.ActiveCaption;
+            this.dateTimePicker1.CalendarTrailingForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.Location = new System.Drawing.Point(177, 474);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(286, 29);
+            this.dateTimePicker1.TabIndex = 21;
+            // 
             // Regsitar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(638, 744);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.button_esconder);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox_Data);
             this.Controls.Add(this.textBox_Nome);
             this.Controls.Add(this.textBox_passe);
             this.Controls.Add(this.textBox_utilizador);
@@ -241,9 +240,9 @@
         private System.Windows.Forms.TextBox textBox_utilizador;
         private System.Windows.Forms.TextBox textBox_passe;
         private System.Windows.Forms.TextBox textBox_Nome;
-        private System.Windows.Forms.TextBox textBox_Data;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button_esconder;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }

@@ -75,6 +75,7 @@
             this.button_iniciar.TabIndex = 7;
             this.button_iniciar.Text = "🔒 Iniciar Sessão";
             this.button_iniciar.UseVisualStyleBackColor = false;
+            this.button_iniciar.Click += new System.EventHandler(this.button_iniciar_Click);
             // 
             // textBox2
             // 
