@@ -41,34 +41,15 @@ namespace projetogit_2._6
 
         private void button_iniciar_Click(object sender, EventArgs e)
         {
-            string nome = textBox_utilizador.Text.Trim();
-            string passe = textBox_passe.Text;
+            iniciarsessao paginaPrincipal = new iniciarsessao();
+            paginaPrincipal.Show();
+            this.Hide();
+        }
 
-            bool encontrado = false;
 
-            for (int i = 0; i < Globais.posicaoVazia; i++)
-            {
-                if (Globais.listaUtilizadores[i].NomeUtilizador == nome &&
-                    Globais.listaUtilizadores[i].PalavraPasse == passe)
-                {
-                    encontrado = true;
-                    break;
-                }
-            }
+        private void Froms1_Load(object sender, EventArgs e)
+        {
 
-            if (encontrado)
-            {
-                MessageBox.Show("Sessão iniciada com sucesso!");
-
-                // Abre o formulário principal depois do login
-                Froms1 paginaPrincipal = new Froms1();
-                paginaPrincipal.Show();
-                this.Hide();
-            }
-            else
-            {
-                MessageBox.Show("Nome de utilizador ou palavra-passe incorretos!");
-            }
         }
     }
 }

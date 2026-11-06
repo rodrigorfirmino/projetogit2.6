@@ -16,5 +16,15 @@ namespace projetogit_2._6
         {
             InitializeComponent();
         }
+
+        private void textBox_utilizador_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void button_iniciar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

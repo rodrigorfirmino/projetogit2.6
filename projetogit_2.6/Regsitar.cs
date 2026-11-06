@@ -126,7 +126,14 @@ namespace projetogit_2._6
             Globais.posicaoVazia++;
 
             MessageBox.Show("Conta registada com sucesso!");
-        }
+
+           
+        
+            Froms1 paginaPrincipal = new Froms1();
+            paginaPrincipal.Show();
+            this.Hide();
+        
+    }
 
     }
 }

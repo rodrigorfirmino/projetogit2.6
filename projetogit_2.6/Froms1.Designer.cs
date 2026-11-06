@@ -140,6 +140,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Froms1";
             this.Text = "Menu inicial";
+            this.Load += new System.EventHandler(this.Froms1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
