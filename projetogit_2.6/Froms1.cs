@@ -1,0 +1,55 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace projetogit_2._6
+{
+    public partial class Froms1 : Form
+    {
+        public Froms1()
+        {
+            InitializeComponent();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_registar_Click(object sender, EventArgs e)
+        {
+            Regsitar paginaPrincipal = new Regsitar();
+            paginaPrincipal.Show();  
+            this.Hide();
+        }
+
+        private void button_iniciar_Click(object sender, EventArgs e)
+        {
+            iniciarsessao paginaPrincipal = new iniciarsessao();
+            paginaPrincipal.Show();
+            this.Hide();
+        }
+
+
+        private void Froms1_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
